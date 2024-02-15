@@ -54,9 +54,9 @@ def my_function():
 	
 	# Get Minecraft command
 	options = {
-	    "username": "Codiak540",
-	    "uuid": "1cc041e6-2e00-4158-b099-146ee8ff7ff1",
-	    "token": "eyJraWQiOiJhYzg0YSIsImFsZyI6IkhTMjU2In0.eyJ4dWlkIjoiMjUzNTQzMDM0ODkxMzk3MSIsImFnZyI6IkFkdWx0Iiwic3ViIjoiZTU4YTM3YjQtZjg4ZS00MjY5LWJjOTgtY2U1ZjBlNzJlMzU4IiwiYXV0aCI6IlhCT1giLCJucyI6ImRlZmF1bHQiLCJyb2xlcyI6W10sImlzcyI6ImF1dGhlbnRpY2F0aW9uIiwiZmxhZ3MiOlsidHdvZmFjdG9yYXV0aCIsIm1pbmVjcmFmdF9uZXQiLCJtc2FtaWdyYXRpb25fc3RhZ2U0Iiwib3JkZXJzXzIwMjIiLCJtdWx0aXBsYXllciJdLCJwcm9maWxlcyI6eyJtYyI6IjFjYzA0MWU2LTJlMDAtNDE1OC1iMDk5LTE0NmVlOGZmN2ZmMSJ9LCJwbGF0Zm9ybSI6IlVOS05PV04iLCJuYmYiOjE3MDc5MzgyMjQsImV4cCI6MTcwODAyNDYyNCwiaWF0IjoxNzA3OTM4MjI0fQ.4Wmxvd6PWAjviBqvxZ7zRrEeF34q7EuKCQou0I-3fBI"
+	    "username": "Player",
+	    "uuid": "",
+	    "token": ""
 	}
 	minecraft_command = minecraft_launcher_lib.command.get_minecraft_command(version, minecraft_directory, options)
 	# Start Minecraft
